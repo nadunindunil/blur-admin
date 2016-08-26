@@ -15,7 +15,7 @@
   /** @ngInject */
   function routeConfig($stateProvider) {
     $stateProvider
-        .state('components.tree', {
+        .state('dashboard.components.tree', {
           url: '/tree',
           templateUrl: 'app/pages/components/tree/tree.html',
           title: 'Tree View',

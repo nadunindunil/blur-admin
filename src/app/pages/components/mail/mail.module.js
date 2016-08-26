@@ -11,7 +11,7 @@
   /** @ngInject */
   function routeConfig($stateProvider,$urlRouterProvider) {
     $stateProvider
-        .state('components.mail', {
+        .state('dashboard.components.mail', {
           url: '/mail',
           abstract: true,
           templateUrl: 'app/pages/components/mail/mail.html',
@@ -21,13 +21,13 @@
           sidebarMeta: {
             order: 0,
           },
-        }).state('components.mail.label', {
+        }).state('dashboard.components.mail.label', {
           url: '/:label',
           templateUrl: 'app/pages/components/mail/list/mailList.html',
           title: 'Mail',
           controller: "MailListCtrl",
           controllerAs: "listCtrl"
-        }).state('components.mail.detail', {
+        }).state('dashboard.components.mail.detail', {
           url: '/:label/:id',
           templateUrl: 'app/pages/components/mail/detail/mailDetail.html',
           title: 'Mail',

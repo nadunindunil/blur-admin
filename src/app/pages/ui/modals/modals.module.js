@@ -11,7 +11,7 @@
   /** @ngInject */
   function routeConfig($stateProvider) {
     $stateProvider
-        .state('ui.modals', {
+        .state('dashboard.ui.modals', {
           url: '/modals',
           templateUrl: 'app/pages/ui/modals/modals.html',
           controller: 'ModalsPageCtrl',

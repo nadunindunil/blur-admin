@@ -11,7 +11,7 @@
   /** @ngInject */
   function routeConfig($stateProvider) {
     $stateProvider
-        .state('ui.alerts', {
+        .state('dashboard.ui.alerts', {
           url: '/alerts',
           templateUrl: 'app/pages/ui/alerts/alerts.html',
           title: 'Alerts',

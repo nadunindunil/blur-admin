@@ -11,7 +11,7 @@
   /** @ngInject */
   function routeConfig($stateProvider) {
     $stateProvider
-        .state('ui.buttons', {
+        .state('dashboard.ui.buttons', {
           url: '/buttons',
           templateUrl: 'app/pages/ui/buttons/buttons.html',
           controller: 'ButtonPageCtrl',

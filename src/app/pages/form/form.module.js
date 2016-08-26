@@ -11,7 +11,7 @@
   /** @ngInject */
   function routeConfig($stateProvider) {
     $stateProvider
-        .state('form', {
+        .state('dashboard.form', {
           url: '/form',
           template : '<ui-view></ui-view>',
           abstract: true,
@@ -21,7 +21,7 @@
             order: 250,
           },
         })
-        .state('form.inputs', {
+        .state('dashboard.form.inputs', {
           url: '/inputs',
           templateUrl: 'app/pages/form/inputs/inputs.html',
           title: 'Form Inputs',
@@ -29,7 +29,7 @@
             order: 0,
           },
         })
-        .state('form.layouts', {
+        .state('dashboard.form.layouts', {
           url: '/layouts',
           templateUrl: 'app/pages/form/layouts/layouts.html',
           title: 'Form Layouts',
@@ -37,7 +37,7 @@
             order: 100,
           },
         })
-        .state('form.wizard',
+        .state('dashboard.form.wizard',
         {
           url: '/wizard',
           templateUrl: 'app/pages/form/wizard/wizard.html',

@@ -11,7 +11,7 @@
   /** @ngInject */
   function routeConfig($stateProvider) {
     $stateProvider
-        .state('charts.chartJs', {
+        .state('dashboard.charts.chartJs', {
           url: '/chartJs',
           templateUrl: 'app/pages/charts/chartJs/chartJs.html',
           title: 'Chart.js',
